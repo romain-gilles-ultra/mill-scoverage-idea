@@ -1,4 +1,4 @@
-# Scoverage conflict with idea
+# Scoverage conflict with GenIdea
 
 ## Config
 Mill version `0.11.7`
@@ -85,5 +85,7 @@ The original version of the example produces:
 </module>
 ```
 
-Using mill version: `0.11.7`
-Do you want me to create a bug?
+After applying the `scoverage` configuration this line is missing:
+```
+<orderEntry type="module" module-name="" exported=""/>
+```
